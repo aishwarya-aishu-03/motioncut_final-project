@@ -1,0 +1,132 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: url('background.jpg') no-repeat center center fixed;
+    background-size: cover;
+    color: #333;
+    text-align: center;
+}
+
+/* Header Section */
+header {
+    background-color: #007bff;
+    color: #fff;
+    padding: 1rem 0;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 0.5rem 0;
+}
+
+nav ul li {
+    margin: 0 1rem;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1rem;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Main Section */
+main {
+    padding: 2rem 0;
+}
+
+.role-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin-top: 1rem;
+}
+
+.role-buttons button {
+    padding: 1rem 2rem;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    background-color: #007bff;
+    color: #fff;
+    transition: all 0.3s ease;
+}
+
+.role-buttons button:hover {
+    background-color: #0056b3;
+    transform: scale(1.05);
+}
+
+/* Footer Section */
+footer {
+    background-color: #343a40;
+    color: #fff;
+    padding: 1rem 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+footer ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin-top: 0.5rem;
+    padding: 0;
+}
+
+footer ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+footer ul li a:hover {
+    text-decoration: underline;
+}
+/* Button Hover Animations */
+.role-buttons button {
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+.role-buttons button:hover {
+    background-color: #0056b3;
+    transform: translateY(-3px);
+}
+
+/* Descriptions */
+.role-buttons p {
+    margin: 0.5rem 0 1rem;
+    font-size: 0.9rem;
+    color: #555;
+}
+
+/* Dark Mode */
+body.dark-mode {
+    background-color: #121212;
+    color: #f0f0f0;
+}
+
+body.dark-mode header {
+    background-color: #1f1f1f;
+}
+
+body.dark-mode footer {
+    background-color: #1f1f1f;
+}

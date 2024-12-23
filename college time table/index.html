@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>College Time Table Management System</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <h1>College Time Table Management System</h1>
+        <nav>
+            <ul>
+                <li><a href="#admin">Admin</a></li>
+                <li><a href="#faculty">Faculty</a></li>
+                <li><a href="#student">Student</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Main Content Section -->
+    <main>
+        <h2>Welcome! Please select a role to get started.</h2>
+        <div class="role-buttons">
+            <button id="admin" onclick="navigateTo('admin')">Admin</button>
+            <button id="faculty" onclick="navigateTo('faculty')">Faculty</button>
+            <button id="student" onclick="navigateTo('student')">Student</button>
+        </div>
+    </main>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>&copy; 2024 College Time Table Management System</p>
+        <ul>
+            <li><a href="#">Privacy Policy</a></li>
+            <li><a href="#">Terms of Service</a></li>
+            <li><a href="#">Contact Us</a></li>
+        </ul>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
